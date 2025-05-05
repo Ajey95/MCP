@@ -7,12 +7,9 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-# ORS_API_KEY = os.getenv("ORS_API_KEY")
-# GEOAPIFY_API_KEY = os.getenv("GEOAPIFY_API_KEY")
-# OTM_API_KEY = os.getenv("OPENTRIPMAP_API_KEY")
-ORS_API_KEY="5b3ce3597851110001cf6248242468606374428f88f4763f2aea5552"
-GEOAPIFY_API_KEY="3c55174be87b47f6800fe947cf913515"
-OTM_API_KEY="5ae2e3f221c38a28845f05b6bb9590e891f0bc2d12a81c474ae395c5"
+ORS_API_KEY = os.getenv("ORS_API_KEY")
+GEOAPIFY_API_KEY = os.getenv("GEOAPIFY_API_KEY")
+OTM_API_KEY = os.getenv("OPENTRIPMAP_API_KEY")
 
 mcp = FastMCP("AmazonTravelGuide")
 
