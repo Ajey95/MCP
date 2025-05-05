@@ -1,0 +1,24 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+
+# Environment variables
+.env
+
+# Python version file
+.python-version
+
+# Lock files
+uv.lock
+
+# VSCode/IDE settings (optional, but useful)
+.vscode/
+.idea/
+
+# OS metadata
+.DS_Store
+Thumbs.db
