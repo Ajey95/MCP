@@ -1,0 +1,8 @@
+httpx
+python-dotenv
+fastapi
+uvicorn
+mcp
+
+use this command
+pip install -r requirements.txt
