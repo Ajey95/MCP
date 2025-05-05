@@ -1,6 +1,6 @@
 from mcp.server.fastmcp import FastMCP
 from typing import List
-
+# Demo mcp server
 # In-memory mock database with 20 leave days to start
 employee_leaves = {
     "E001": {"balance": 18, "history": ["2024-12-25", "2025-01-01"]},
