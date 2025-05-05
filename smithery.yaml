@@ -1,0 +1,36 @@
+version: "1.0"
+
+tools:
+  - name: TravelRoute
+    description: |
+      Get route distance and time from the current location to the Amazon Rainforest (Manaus) using OpenRouteService.
+      Takes in the origin location and returns the distance and travel time.
+    endpoint: "http://localhost:3000/travelroute"
+
+  - name: NearbyHotels
+    description: |
+      Find hotels near the specified location using the Geoapify API.
+      Takes in a location and returns a list of nearby hotels.
+    endpoint: "http://localhost:3000/nearbyhotels"
+
+  - name: Precautions
+    description: |
+      Provides precautions and travel suggestions for visiting the Amazon Rainforest.
+    endpoint: "http://localhost:3000/precautions"
+
+  - name: AdventureSpots
+    description: |
+      Retrieves nearby adventure spots, such as hiking and nature sites, from OpenTripMap API.
+      Takes in a location and returns a list of adventure spots.
+    endpoint: "http://localhost:3000/adventurespots"
+
+  - name: MonumentsAndFood
+    description: |
+      Retrieves famous foods and cultural places near the specified location using OpenTripMap.
+      Takes in a location and returns a list of cultural places and famous foods.
+    endpoint: "http://localhost:3000/monumentsandfood"
+
+  - name: Greeting
+    description: |
+      A greeting tool to welcome the user and initiate interaction.
+    endpoint: "http://localhost:3000/hello/{name}"
